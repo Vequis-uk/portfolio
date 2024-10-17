@@ -1,0 +1,19 @@
+.header-main-section {
+  height: 200px;
+  background-color: dodgerblue;
+  border-radius: 10px;
+  position: sticky;
+  top: 8px;
+}
+
+.header-main-logo-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+
+  .header-main-logo {
+    height: 144px;
+    width: 228px;
+  }
+}

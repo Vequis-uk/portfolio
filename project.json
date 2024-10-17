@@ -3,7 +3,7 @@
   "$schema": "node_modules/nx/schemas/project-schema.json",
   "includedScripts": [],
   "projectType": "application",
-  "prefix": "app",
+  "prefix": "portfolio",
   "sourceRoot": "./src",
   "tags": [],
   "targets": {
@@ -21,6 +21,11 @@
           {
             "glob": "**/*",
             "input": "public"
+          },
+          {
+            "glob": "**/*",
+            "input": "src/assets",
+            "output": "assets"
           }
         ],
         "styles": ["./src/styles.scss"],
