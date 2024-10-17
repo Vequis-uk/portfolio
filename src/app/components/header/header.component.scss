@@ -4,6 +4,7 @@
   border-radius: 10px;
   position: sticky;
   top: 8px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .header-main-logo-container {
@@ -15,5 +16,18 @@
   .header-main-logo {
     height: 144px;
     width: 228px;
+  }
+}
+
+.sonic-image-container {
+  position: relative;
+  bottom: -50px;
+  left: 39.5vw;
+//todo this could do with improving - scaling is not the best
+  .sonic-image {
+    display: block;
+    width: 100px;
+    height: 100px;
+    transform: scaleX(-1);
   }
 }
