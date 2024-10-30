@@ -12,6 +12,8 @@
   height: 100%;
   align-items: center;
   justify-content: center;
+  left: 50px;
+  position: relative;
 
   .header-main-logo {
     height: 144px;
@@ -22,7 +24,7 @@
 .sonic-image-container {
   position: relative;
   bottom: -50px;
-  left: 39.5vw;
+  left: 37vw;
 //todo this could do with improving - scaling is not the best
   .sonic-image {
     display: block;
