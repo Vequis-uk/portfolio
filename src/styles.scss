@@ -1,3 +1,29 @@
 .main-website-body {
   background-color: #570987;
 }
+
+/* Scrollbar Track */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #570987;
+  border-radius: 10px;
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #570987;
+  border-radius: 10px;
+  border: 3px solid dodgerblue;
+}
+
+::-webkit-scrollbar-corner {
+  background: #570987;
+}
+
+/* Hover Effect */
+::-webkit-scrollbar-thumb:hover {
+  background-color: black;
+}

@@ -1,14 +1,17 @@
 import { AfterViewInit, Component, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {FloatingSectionComponent} from "../floating-section/floating-section.component";
+import { NotSpaceInvadersComponent } from '../not-space-invaders/not-space-invaders.component';
 
 @Component({
   selector: 'portfolio-top-section',
   standalone: true,
-  imports: [CommonModule, FloatingSectionComponent],
+  imports: [CommonModule, FloatingSectionComponent, NotSpaceInvadersComponent],
   template: `
   <div class="top-section-main-container">
-    <portfolio-floating-section></portfolio-floating-section>
+    <portfolio-floating-section>
+      <portfolio-not-space-invaders></portfolio-not-space-invaders>
+    </portfolio-floating-section>
   </div>
   `,
   styleUrl: './top-section.component.scss',
