@@ -1,5 +1,5 @@
 .header-main-section {
-  height: 200px;
+  height: 150px;
   background-color: dodgerblue;
   border-radius: 10px;
   position: sticky;
@@ -22,9 +22,10 @@
 }
 
 .sonic-image-container {
-  position: relative;
-  bottom: -50px;
-  left: 37vw;
+  position: fixed;
+  top: 60px;
+  right: 5px;
+
 //todo this could do with improving - scaling is not the best
   .sonic-image {
     display: block;
