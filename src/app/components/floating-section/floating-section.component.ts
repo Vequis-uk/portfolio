@@ -12,7 +12,7 @@ import { CommonModule } from '@angular/common';
        [style.background]="floatingBgColour()"
        [style.color]="floatingTextColour()"
   >
-    I am a reusable floating section
+    <ng-content></ng-content>
   </div>
   `,
   styleUrl: './floating-section.component.scss',
